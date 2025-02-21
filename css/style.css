@@ -3154,6 +3154,10 @@ h6 {
 .portfolio_box {
   margin-bottom: 80px;
 }
+
+.overflow-hidden-cstm {
+  overflow: hidden;
+}
 @media (max-width: 767px) {
   .portfolio_box {
     margin-bottom: 35px;
@@ -3179,6 +3183,15 @@ h6 {
 .single_portfolio {
   position: relative;
 }
+
+@media (min-width: 992px) {
+  .single_portfolio {
+    height: 360px;
+    max-height: 360px;
+  }
+  
+}
+
 .single_portfolio .overlay {
   transition: all 0.4s ease 0s;
 }
