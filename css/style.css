@@ -2993,7 +2993,7 @@ h6 {
 /* Start Brand Area css
 ============================================================================================ */
 .single-brand-item {
-  width: 170px;
+  width: 100% !important;
   height: 100px;
   cursor: pointer;
   margin-bottom: 30px;
@@ -3001,7 +3001,7 @@ h6 {
   box-shadow: none;
   transition: all 0.4s ease 0s;
 }
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .single-brand-item {
     height: 100px;
     width: 140px;
@@ -3012,7 +3012,7 @@ h6 {
     margin: 0px auto;
     margin-bottom: 30px;
   }
-}
+} */
 .single-brand-item .d-table-cell {
   vertical-align: middle;
 }
