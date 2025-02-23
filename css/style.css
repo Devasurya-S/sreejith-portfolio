@@ -3661,7 +3661,7 @@ h6 {
   .home_banner_area .banner_inner {
     min-height: 300px;
     padding-top: 200px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
   .home_banner_area .banner_inner .banner_content {
     margin-top: 0px;
